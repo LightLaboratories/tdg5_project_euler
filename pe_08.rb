@@ -2,7 +2,7 @@ a = 7316717653133062491922511967442657474235534919493496983520312774506326239578
 a=a.to_s
 big = 0
 for i in 1..(995)
-  su=a[i,1].to_i*a[i+1,1].to_i*a[i+2,1].to_i*a[i+3,1].to_i*a[i+4,1].to_i
+  su=a[i,1].to_i*a[i+1,1].to_i*a[i+2,1].to_i*a[i+3,1].to_i*a[i+4,1].to_i*a[i+5,1].to_i*a[i+6,1].to_i*a[i+7,1].to_i*a[i+8,1].to_i*a[i+9,1].to_i*a[i+10,1].to_i*a[i+11,1].to_i*a[i+12,1].to_i
   if su>big 
     big=su
   end
